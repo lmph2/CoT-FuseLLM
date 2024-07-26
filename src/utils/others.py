@@ -39,7 +39,7 @@ TOKENIZER_TO_SPECIAL_TOKEN = {
 
 # get tokenizer
 def get_tokenizer(model_name_or_path, cache_dir, model_max_length):
-    access_token ="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"
+    access_token ="INSERT TOKEN HERE"
     kwargs = {
         "use_fast": False,
         "tokenizer_trust_remote_code": False,
@@ -83,7 +83,7 @@ def get_tokenizer(model_name_or_path, cache_dir, model_max_length):
 
 # get base or peft model
 def get_base_model(args, trust_remote_code):
-    access_token ="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"
+    access_token ="INSERT TOKEN HERE"
     logger.info("Loading base model.")
     if args.use_flash_attn and "mpt" in args.model_name_or_path.lower():
         config = AutoConfig.from_pretrained(
