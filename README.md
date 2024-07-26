@@ -55,7 +55,7 @@ Or go to https://huggingface.co/datasets/JeanKaddour/minipile to find alternativ
 1. Split long text:
 ```
 python3 ./src/utils/split_long_text.py \
-  --base_model_name_or_path "meta-llama/Llama-2-7b-hf" \
+  --base_model_name_or_path "local_path_llama2_7b" \
   --blending_model_name_or_path "openlm-research/open_llama_7b_v2" \
   --another_blending_model_name_or_path "mosaicml/mpt-7b" \
   --dataset "<path_to_minipile>" \
