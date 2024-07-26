@@ -51,6 +51,19 @@ git clone https://huggingface.co/datasets/JeanKaddour/minipile
 ```
 Or go to https://huggingface.co/datasets/JeanKaddour/minipile to find alternative ways 
 
+## Alternative: Download CoT Collections 
+To install the full CoT dataset, run: 
+```
+git clone https://huggingface.co/datasets/kaist-ai/CoT-Collection
+```
+Then to create a useable subsample of the CoT collections Dataset for the FuseLLM:
+Update the path to the CoT collections json data file on line 24 of the sample_CoT_data.py file
+Then run: 
+```
+python3 sample_CoT_data.py
+```
+This will output a .parquet file which you can use as you would use the Minipile .parquet files
+
 ## Data Construction 
 1. Split long text:
 ```
