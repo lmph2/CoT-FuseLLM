@@ -38,6 +38,9 @@ For packages, run:
 ```
 pip install -r requirements.txt
 ```
+## Access
+Go to https://huggingface.co/meta-llama/Llama-2-7b-hf and request access to the llama-2 7b model
 
+Go to settings and create an access token for the llama-2 7b model. 
    
     
